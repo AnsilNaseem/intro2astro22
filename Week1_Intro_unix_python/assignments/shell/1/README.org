@@ -1,0 +1,3 @@
+- Create a new directory named =foo_dir=
+- Write "=Hello, world=" to a text file (under the name =hello.txt=)
+- Put a copy of =hello.txt= to the new =foo_sub_dir= directory under the =foo_dir= directory
