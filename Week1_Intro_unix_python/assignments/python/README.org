@@ -1,0 +1,10 @@
+* If you are using =python virtual environment=:
+  1. First, activate the environment. Here the virtual environment name is =.venv=:
+  : $ source .venv/bin/activate
+  2. Then install the required packages:
+  : (.venv) $ python3 -m pip install -r requirements.txt
+  3. Now install the new kernel as explained [[https://stackoverflow.com/a/72657392/6474744][in here]]:
+  : (.venv) $ python3 -m pip install ipykernel
+  : (.venv) $ python3 -m ipykernel install --name=intro2astro
+  4. Finally, open up the =jupyter-notebook= and click on =Kernel= then =Change kernel= to =intro2astro=
+  : (.venv) $ jupyter-notebook pedram-python-week-1.ipynb
