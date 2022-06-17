@@ -1,3 +1,5 @@
 *~
 *\#
 paper/
+.venv/
+.ipynb_checkpoints/
